@@ -21,7 +21,7 @@ Before you import the whole project into your Eclipse, please make sure that you
 
 Running on java run time 1.8 
 
-### database connector 
+### database connector and database setup 
 This is currently working with mysql database 
 
 make sure that you changed connector to connect with your own database you have on your local machine 
@@ -33,9 +33,12 @@ Steps:
 * setUsername --> your database username 
 * setPassword --> your database password 
 
-THE MOST IMPORTANTLY: PLEASE MAKE SURE YOUR DATABASE IS RUNNING 
+Please use the sql statement in the createDatabase.sql file to create database if you don't have your sql yet, if you do, please make sure that your column name matches with the sql in DAOImpl file 
 
-It is always a good idea to run the following before you actually start running the project  
+## THE MOST IMPORTANTLY: PLEASE MAKE SURE YOUR DATABASE IS RUNNING 
+
+
+## It is always a good idea to run the following before you actually start running the project  
 Maven clean
 Update project 
 
