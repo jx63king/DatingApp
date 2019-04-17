@@ -38,11 +38,10 @@ public class WebMvcConfig {
 	DriverManagerDataSource getDataSource() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
-		//ds.setUrl("jdbc:mysql://localhost:3306/websparrow");
-		ds.setUrl("jdbc:mysql://localhost:3306/Test?autoReconnect=true&useSSL=false&serverTimezone=EST");
-		//jdbc:mysql://localhost:3306/Peoples?autoReconnect=true&useSSL=false
-		ds.setUsername("root");
-		ds.setPassword("JetLee920816");
+		//please change ##### to your database name, my time zone is EST, please fix it to your time zone
+		ds.setUrl("jdbc:mysql://localhost:3306/#####?autoReconnect=true&useSSL=false&serverTimezone=EST");
+		ds.setUsername("####"); //please change it to your own database username 
+		ds.setPassword("####"); //please change it to your own password 
 
 		return ds;
 
@@ -54,7 +53,6 @@ public class WebMvcConfig {
 	@Bean
 	public UserDao getUserDao() {
 		return new UserDaoImpl(getDataSource());
-		//return new UserDaoImpl(dbMan);
 	}
 	
 
