@@ -4,7 +4,7 @@ This is an app collect data from dating apps, it is not exactly like a dating ap
 
 I coded this in Eclipse, therefore, there are couple things you will have to set up 
 
-##set up
+## set up
 ### environment 
 This program only works with Apache 9.0.12
 You will have to make sure that you added your server before you run the programm 
