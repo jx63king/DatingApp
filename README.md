@@ -2,6 +2,8 @@
 
 This is an app collect data from dating apps, it is not exactly like a dating app per se 
 
+It is using Spring MVC 
+
 I coded this in Eclipse, therefore, there are couple things you will have to set up 
 
 ## set up
