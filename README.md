@@ -4,8 +4,8 @@ This is an app collect data from dating apps, it is not exactly like a dating ap
 
 I coded this in Eclipse, therefore, there are couple things you will have to set up 
 
-#set up
-## environment 
+##set up
+### environment 
 This program only works with Apache 9.0.12
 You will have to make sure that you added your server before you run the programm 
 
@@ -21,7 +21,7 @@ Before you import the whole project into your Eclipse, please make sure that you
 
 Running on java run time 1.8 
 
-## database connector 
+### database connector 
 This is currently working with mysql database 
 
 make sure that you changed connector to connect with your own database you have on your local machine 
@@ -39,5 +39,5 @@ It is always a good idea to run the following before you actually start running 
 Maven clean
 Update project 
 
-# run project 
+## run project 
 Right click on the project, then do Run As --> Run on Server 
